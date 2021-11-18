@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    
+    <style>
+        body {
+            background-image: url("images/bus stand.jpg");
+        }
+        .reg{
+                border-collapse:separate;
+                border-spacing:0 25px;
+                border-width: 200px;               
+        }
+        td{
+            color: black;
+        }
+        </style>
+    <div class="btn-group btn-group-lg" style="padding-top: 0px;">
+        <button type="button" class="btn btn-primary" style="width: 300px;"
+        onclick="window.location.href = 'home.html';">Home</button>
+        <button type="button" class="btn btn-primary" style="width: 300px;"
+        onclick="window.location.href = 'AboutUs.html';">About Us</button>
+        <button type="button" class="btn btn-primary" style="width: 300px;"
+        onclick="window.location.href = 'Registration.html';">Registration</button>
+        <button type="button" class="btn btn-primary" style="width: 300px;"
+        onclick="window.location.href = 'Login.html';">Login</button>
+        <button type="button" class="btn btn-primary" style="width: 300px;"
+        onclick="window.location.href = 'ContactUs.html';">Contact Us</button>
+      </div>
+ 
+<script type="text/javascript" src="validateRegistration.js"> </script> 
+    
+    <div class="container" style="padding-top: 60px;">
+          <div class="row">
+            <div class="col-lg-6" style="background-color:rgb(77, 160, 118);  border-radius: 30px;" ><br>
+ 
+                <h1 style="text-align: center; color: black;"><b><u>Create your account</u></b></h1><br><br>
+
+<table  class="reg">  
+<tr><td> Name</td> 
+<td><input type="text" placeholder="Enter your name" id="n1" class="form-control"></td>
+</tr>
+<tr><td>Email </td>  
+<td><input type="text" placeholder="Enter your email id" id="e1" class="form-control"></td>
+</tr>
+<tr><td> Set Password</td>  
+<td><input type="password" placeholder="Set a password" id="p1" class="form-control"></td>
+</tr> 
+<tr><td>Confirm Password</td>  
+<td><input type="password" placeholder="Confirm your password" id="p2" class="form-control"></td>
+</tr>  
+<tr><td>  
+<input type="submit" value="Create" class="form-control" style="width: 120px; height: 30px; color: blue;" onClick="create_account()"/>  
+</table>  
+
+</div></div></div>
+</body>
+</html>

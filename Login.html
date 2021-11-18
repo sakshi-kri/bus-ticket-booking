@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <style>
+        body {
+            background-image: url("images/bus stand.jpg");
+        }
+        
+      
+       .login{
+                border-collapse:separate;
+                border-spacing:0 25px;
+                border-width: 200px; 
+                      
+        }
+        td{
+            color: black;
+        }
+        </style>
+   <div class="btn-group btn-group-lg" style="padding-top: 0px;">
+    <button type="button" class="btn btn-primary" style="width: 300px;"
+    onclick="window.location.href = 'home.html';">Home</button>
+    <button type="button" class="btn btn-primary" style="width: 300px;"
+    onclick="window.location.href = 'AboutUs.html';">About Us</button>
+    <button type="button" class="btn btn-primary" style="width: 300px;"
+    onclick="window.location.href = 'Registration.html';">Registration</button>
+    <button type="button" class="btn btn-primary" style="width: 300px;"
+    onclick="window.location.href = 'Login.html';">Login</button>
+    <button type="button" class="btn btn-primary" style="width: 300px;"
+    onclick="window.location.href = 'ContactUs.html';">Contact Us</button>
+  </div>
+
+  <script type="text/javascript" src="validateLogin.js"></script>  
+  <div class="jumbotron text-center" style="background-color:rgb(57, 31, 206);">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+    <h1 style="color: black;">Sign In </h1>
+<p style="color: black;">Login to proceed further!</p>
+</div>
+
+<div class="col-sm-6">
+  <img src="images\login.png" width="300px" height="180px">
+</div></div></div></div>
+
+  <div class="container">
+    <br>
+      <div class="row">
+        <div class="col-lg-6" style="background-color:rgb(81, 167, 124);">
+          <h1 style="text-align: center; color: black;"><b><u>Login to your account</u></b></h1><br><br>
+          
+          <table  class="login" >  
+            <tr><td> Enter Username</td> 
+            <td><input type="text" placeholder="Enter your name" id="name1" class="form-control"></td>
+            </tr> 
+            <tr><td> Enter Password</td>  
+            <td><input type="password" placeholder="Set a password" id="pass1" class="form-control"></td>
+            </tr> 
+            <tr><td><input type="checkbox" id="check"> Remember Me</td></tr> 
+            <tr><td> 
+            <input type="submit" value="Login" class="form-control" style="width: 120px; height: 30px; color: blue;" onClick="validateform()"/>  
+            </table>  
+         </div>
+          </div></div>
+           </div>
+</body>
+</html>

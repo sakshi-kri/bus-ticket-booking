@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body >
+  
+<!--<div class="container">-->
+        <div class="btn-group btn-group-lg" style="padding-top: 0px;">
+            <button type="button" class="btn btn-primary" style="width: 300px;"
+            onclick="window.location.href = 'home.html';">Home</button>
+            <button type="button" class="btn btn-primary" style="width: 300px;"
+            onclick="window.location.href = 'AboutUs.html';">About Us</button>
+            <button type="button" class="btn btn-primary" style="width: 300px;"
+            onclick="window.location.href = 'Registration.html';">Registration</button>
+            <button type="button" class="btn btn-primary" style="width: 300px;"
+            onclick="window.location.href = 'Login.html';">Login</button>
+            <button type="button" class="btn btn-primary" style="width: 300px;"
+            onclick="window.location.href = 'ContactUs.html';">Contact Us</button>
+          </div>
+        
+          <style>
+            .fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 100px;
+  text-align: center;
+  margin-left: 40px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-google {
+  color: white;
+}
+            body {
+               background-color: rgb(1, 1, 17);
+            }
+           
+.contact{
+                border-collapse:separate;
+                border-spacing:0px 25px;
+                border-width: 200px;                
+        }
+        #img{
+          opacity: 0.5;
+        }
+      #img:hover{
+          opacity: 1.0;
+        }
+            </style>
+
+        
+            <div class="jumbotron text-center" style="background-color:rgb(57, 31, 206);">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-8">
+              <h1 style="color: black;">Get in Touch!</h1>
+          <p style="color:rgb(1, 1, 17);">Want to get in touch? Let's have conversation</p>
+          </div>
+          <div class="col-sm-4">
+            <img src="images\getintouch.jpg" width="400px" height="180px">
+        </div></div>
+          </div></div>
+         
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-5" style="background-color: rgb(59, 128, 93);">
+                
+                  <form >
+                    <div class="form-group">
+                      <br>
+                      <h2 style="text-align: center; color: black;"> Fill up the form!!!</h2><br><hr><br>
+                      <label for="usr">Name:</label>
+                      <input type="text" class="form-control" id="usr" name="username">
+                    </div>
+                    <div class="form-group">
+                      <label for="email">E-mail Id:</label>
+                      <input type="email" class="form-control" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                      <label for="comment">Comment:</label>
+                      <textarea class="form-control" rows="5" id="comment"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" onclick="alert('Message Submitted!')">Submit</button><br><br>
+                  </form></div>
+                  <div class="col-sm-2">
+                    </div>
+                    <div class="col-sm-5">
+                     <div class="row-sm-5"><marquee direction="left">
+                       <img src="images/citybus.jfif" id="img" width="500px" height="200px"></marquee><br>
+                        <marquee direction="right">
+                          <img src="images/busimage.jpg" id="img" width="500px" height="200px"></marquee><br>
+                        <marquee  direction="left">
+                          <img src="images/passenger-buses.jpg" id="img" width="500px" height="200px"></marquee>
+                       <br><hr><br>
+
+                     </div> </div> </div> </div>
+           
+           <footer style="background-color: royalblue; height: 190px;">
+            <div class="container">
+              <div class="row">
+                <h2 style="color: black;">Connect us through:</h2>
+                <div class="col-sm-4">
+                  <a href="https:\\www.facebook.com" class="fa fa-facebook"></a></div>
+                  <div class="col-sm-4">
+                    <a href="https:\\www.twitter.com" class="fa fa-twitter"></a></div>
+                    <div class="col-sm-4">
+                    <a href="https:\\www.google.com" class="fa fa-google"></a></div></div></footer>
+</body>
+</html>

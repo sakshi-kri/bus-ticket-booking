@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BokarotoPatna</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <style>
+        body {
+            background-image: url("images/bus stand.jpg");
+        }
+        .reg{
+                border-collapse:separate;
+                border-spacing:0 25px;
+                border-width: 200px;               
+        }
+        h2{
+              text-align: center;
+              color: rgb(46, 8, 8);
+          }
+          .button {
+              display: inline-block;
+              padding: 15px 25px;
+              font-size: 24px;
+              cursor: pointer;
+              margin-left: 60px;
+              margin-bottom: 20px;
+              text-align: center;
+              text-decoration: none;
+              color: #fff;
+              background-color: #4CAF50;
+              border-radius: 15px;
+              box-shadow: 0 9px #999;
+            }
+            
+            .button:hover {background-color: #3e8e41}
+            
+            .button:active {
+              background-color: #3e8e41;
+              box-shadow: 0 5px #666;
+              transform: translateY(4px);
+            }
+        </style>
+        <script type="text/javascript" src="validatepassenger.js"> </script> 
+    <div class="btn-group btn-group-lg" style="padding-top: 0px;">
+        <button type="button" class="btn btn-primary" style="width: 300px;"
+        onclick="window.location.href = 'home.html';">Home</button>
+        <button type="button" class="btn btn-primary" style="width: 300px;"
+        onclick="window.location.href = 'AboutUs.html';">About Us</button>
+        <button type="button" class="btn btn-primary" style="width: 300px;"
+        onclick="window.location.href = 'Registration.html';">Registration</button>
+        <button type="button" class="btn btn-primary" style="width: 300px;"
+        onclick="window.location.href = 'Login.html';">Login</button>
+        <button type="button" class="btn btn-primary" style="width: 300px;"
+        onclick="window.location.href = 'ContactUs.html';">Contact Us</button>
+      </div>
+<div class="container">
+      <div class="row">
+        <div class="col-lg-6" style="background-color:rgb(233, 193, 219)">
+            <h2> From: Bokaro</h2>
+         </div> 
+         <div class="col-lg-6" style="background-color:rgb(233, 193, 219)">
+            <h2 > To: Patna</h2> 
+         </div>  </div>
+
+         <div class="container" style="padding-top: 60px; ">
+            <div class="row">
+              <div class="col-lg-6" style="background-color: lightseagreen; border-radius: 30px;"><br>
+   
+                  <h1 style="text-align: center;"><b><u>Ticket Booking</u></b></h1><br>
+                  <h2 style="text-align: center;"><b><u>Passenger details</u></b></h2><br><br>
+  
+  <table  class="reg">  
+  <tr><td> Name</td> 
+  <td><input type="text" placeholder="Enter passenger name" id="n1" class="form-control"></td>
+  </tr>  
+  
+  <tr><td>Mobile Number</td>  
+  <td><input type="text" placeholder="Enter Mobile Number" id="m1" class="form-control"></td>
+  </tr>
+  
+  
+  <tr><td> Gender</td>  
+  <td><input type="radio"id="p1" name="r1"> Male</td>
+  <td><input type="radio"id="p1" name="r1"> Female</td>
+  </tr>  
+  
+  <tr><td>Travel Date</td>  
+  <td><input type="date" id="d1" class="form-control"></td>
+  </tr>  
+  <tr><td><b>Warning: Allot seat first</b></td>  
+  <tr><td>  
+  <input type="submit" value="Booking confirm" class="form-control" onclick="booking_confirm()" style="width: 200px; height: 30px; color: blue;" />  
+  </table>  
+  
+  </div>
+
+  <div class="container" style="padding-top: 40px; ">
+      <div class="col-lg-6" ></div>
+         
+      <h2> <u>Allotment of seat:</u></h2><br>
+           <button class="button" id="seat1" onclick="alert('seat 1 alloted for you')">Seat 1</button>
+            <button class="button" id="seat2"  onclick="alert('seat 2 alloted for you')">Seat 2</button>
+            <button class="button"id="seat3"  onclick="alert('seat 3 alloted for you')">Seat 3</button>
+            <button class="button" id="seat4" onclick="alert('seat 4 alloted for you')">Seat 4</button>
+            <button class="button" id="seat5" onclick="alert('seat 5 alloted for you')">Seat 5</button>
+            <button class="button" id="seat6" onclick="alert('seat 6 alloted for you')">Seat 6</button>
+            <button class="button" id="seat7"  onclick="alert('seat 7 alloted for you')">Seat 7</button>
+            <button class="button" id="seat8" onclick="alert('seat 8 alloted for you')">Seat 8</button>
+            <button class="button" id="seat9" onclick="alert('seat 9 alloted for you')">Seat 9</button>
+            <button class="button" id="seatA" onclick="alert('seat A alloted for you')">Seat A</button>
+            <button class="button" id="seatB" onclick="alert('seat B alloted for you')">Seat B</button>
+            <button class="button" id="seatC" onclick="alert('seat C alloted for you')">Seat C</button>
+           
+          <br></div></div>
+     </div>
+ 
+    
+</body>
+</html>

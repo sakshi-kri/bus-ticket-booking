@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buses Journey list</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="btn-group btn-group-lg" style="padding-top: 0px;">
+        <button type="button" class="btn btn-primary" style="width: 300px;"
+        onclick="window.location.href = 'home.html';">Home</button>
+        <button type="button" class="btn btn-primary" style="width: 300px;"
+        onclick="window.location.href = 'AboutUs.html';">About Us</button>
+        <button type="button" class="btn btn-primary" style="width: 300px;"
+        onclick="window.location.href = 'Registration.html';">Registration</button>
+        <button type="button" class="btn btn-primary" style="width: 300px;"
+        onclick="window.location.href = 'Login.html';">Login</button>
+        <button type="button" class="btn btn-primary" style="width: 300px;"
+        onclick="window.location.href = 'ContactUs.html';">Contact Us</button>
+      </div>
+
+      <h1 style="text-align: center; color: brown;"><b><u>Search Buses for different routes</u></b></h1><br><br>
+
+      <style>
+           body {
+            background-image: url("images/bus stand.jpg");
+        }
+        th{
+            background-color: brown;
+            color: cornsilk;
+        }
+        td{
+          height: 80px;
+        }
+      </style>
+     
+<div class="container">
+
+      <table border="3" class="table table-hover" >
+          <thead>
+        <tr>
+            <th>Bus Name</th>
+            <th>Bus Id</th>
+            <th> From</th>
+            <th>To</th>
+            <th>Arriving Time</th>
+            <th>Price</th>
+            <th>Book Now</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Speedx</td>
+            <td>Spe345</td>
+            <td>Bokaro</td>
+            <td>Patna</td>
+            <td>10:00AM</td>
+            <td>Rs.200/-</td>
+            <td><button type="button" class="btn btn-primary" style="width: 150px;"
+        onclick="window.location.href = 'bokarotopatna.html';">Book Ticket</button></td> 
+          </tr>
+          <tr>
+            <td>Rainbow</td>
+            <td>Rain345</td>
+            <td>Kolkata</td>
+            <td>Jamsedpur</td>
+            <td>7:00AM</td>
+            <td>Rs.300/-</td>
+            <td><button type="button" class="btn btn-primary" style="width: 150px;"
+                onclick="window.location.href = 'kolkatatojamsedpur.html';">Book Ticket</button></td> 
+          </tr>
+          <tr>
+            <td>Centrix</td>
+            <td>Cnx345</td>
+            <td>Ranchi</td>
+            <td>Gaya</td>
+            <td>4:30AM</td>
+            <td>Rs.390/-</td>
+            <td><button type="button" class="btn btn-primary" style="width: 150px;"
+                onclick="window.location.href = 'ranchitogaya.html';">Book Ticket</button></td> 
+          </tr>
+          <tr>
+            <td>Galaxy</td>
+            <td>gly345</td>
+            <td>Deoghar</td>
+            <td>Bokaro</td>
+            <td>7:00PM</td>
+            <td>Rs.260/-</td>
+            <td><button type="button" class="btn btn-primary" style="width: 150px;"
+                onclick="window.location.href = 'deoghartobokaro.html';">Book Ticket</button></td> 
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      <br><br><br>
+</body>
+</html>
